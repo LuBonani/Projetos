@@ -1,0 +1,7 @@
+SELECT * FROM tbproduto WHERE PRODUTO = '544931';
+
+SELECT * FROM tbcliente WHERE CIDADE = 'São Paulo';
+
+SELECT * FROM tbproduto WHERE SABOR = 'LIMÃO';
+
+UPDATE tbproduto SET SABOR = 'CÍTRICOS' WHERE SABOR = 'LIMÃO';
